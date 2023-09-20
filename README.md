@@ -4,29 +4,29 @@ This Python code is an example of using the Ultralytics YOLO (You Only Look Once
 
 Here's an explanation of the code:
 
-Importing Libraries:
-  **from ultralytics import YOLO:** Import the YOLO class from the Ultralytics library, which provides a high-level interface for YOLO model training and inference.
+**Importing Libraries:**
+  from ultralytics import YOLO: Import the YOLO class from the Ultralytics library, which provides a high-level interface for YOLO model training and inference.
   
-  **import torch:** Import the PyTorch library for deep learning operations.
+  import torch: Import the PyTorch library for deep learning operations.
  
- **import multiprocessing:** Import the multiprocessing library to support parallel processing.
+ import multiprocessing: Import the multiprocessing library to support parallel processing.
   
-  **import matplotlib.pyplot as plt:** Import Matplotlib for visualizing results.
+ import matplotlib.pyplot as plt: Import Matplotlib for visualizing results.
 
 
 **train_model Function:**
   This function is used to train a YOLO model.
   It takes several parameters:
   
-  **model:** The YOLO model to be trained.
+  model: The YOLO model to be trained.
   
-  **device:** The device to use for training (CPU or GPU).
+  device: The device to use for training (CPU or GPU).
   
-  **data_yaml:** Path to a YAML file that specifies the dataset configuration (e.g., data paths, classes, etc.).
+  data_yaml: Path to a YAML file that specifies the dataset configuration (e.g., data paths, classes, etc.).
   
-  **num_epochs:** The number of training epochs (default is 1).
+  num_epochs: The number of training epochs (default is 1).
   
-  **gradient_accumulation_steps:** The number of gradient accumulation steps (default is 2).
+  gradient_accumulation_steps: The number of gradient accumulation steps (default is 2).
   Inside the function, it performs training for the specified number of epochs using the Ultralytics YOLO library.
 
 
@@ -34,11 +34,11 @@ Importing Libraries:
 This function is used to make predictions with a trained YOLO model.
 It takes several parameters:
 
-**model:** The trained YOLO model for prediction.
+model: The trained YOLO model for prediction.
 
-**device:** The device to use for inference (CPU or GPU).
+device: The device to use for inference (CPU or GPU).
 
-**image_path:** The path to the image on which predictions will be made.
+image_path: The path to the image on which predictions will be made.
 Inside the function, it loads an image, performs inference with the YOLO model, and displays the results using the results.show() method.
 
 
