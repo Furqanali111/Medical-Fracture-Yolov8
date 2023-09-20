@@ -6,6 +6,7 @@ Here's an explanation of the code:
 
 **Importing Libraries:**
 
+
 from ultralytics import YOLO: Import the YOLO class from the Ultralytics library, which provides a high-level interface for YOLO model training and inference.
   
 import torch: Import the PyTorch library for deep learning operations.
