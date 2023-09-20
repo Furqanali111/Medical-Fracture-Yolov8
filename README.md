@@ -5,13 +5,14 @@ This Python code is an example of using the Ultralytics YOLO (You Only Look Once
 Here's an explanation of the code:
 
 **Importing Libraries:**
-  from ultralytics import YOLO: Import the YOLO class from the Ultralytics library, which provides a high-level interface for YOLO model training and inference.
+
+from ultralytics import YOLO: Import the YOLO class from the Ultralytics library, which provides a high-level interface for YOLO model training and inference.
   
-  import torch: Import the PyTorch library for deep learning operations.
+import torch: Import the PyTorch library for deep learning operations.
  
- import multiprocessing: Import the multiprocessing library to support parallel processing.
+import multiprocessing: Import the multiprocessing library to support parallel processing.
   
- import matplotlib.pyplot as plt: Import Matplotlib for visualizing results.
+import matplotlib.pyplot as plt: Import Matplotlib for visualizing results.
 
 
 **train_model Function:**
